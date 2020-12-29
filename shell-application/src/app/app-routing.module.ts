@@ -13,7 +13,7 @@ const routes: Routes = [
       SystemJS.set('@angular/core', SystemJS.newModule(angularCore));
       SystemJS.set('@angular/common', SystemJS.newModule(angularCommon));
       SystemJS.set('@angular/router', SystemJS.newModule(angularRouter));
-      SystemJS.import('https://raw.githubusercontent.com/bpotaczek/angular-dynamic-module/main/application1/lib1/bundles/lib1.umd.js').then((m: any) => {
+      SystemJS.import('https://raw.githubusercontent.com/bpotaczek/angular-dynamic-module/main/application1/dist/lib1/bundles/lib1.umd.js').then((m: any) => {
         resolve(m);
       });
     }).then((m: any) => {
@@ -26,7 +26,7 @@ const routes: Routes = [
       SystemJS.set('@angular/core', SystemJS.newModule(angularCore));
       SystemJS.set('@angular/common', SystemJS.newModule(angularCommon));
       SystemJS.set('@angular/router', SystemJS.newModule(angularRouter));
-      SystemJS.import('https://raw.githubusercontent.com/bpotaczek/angular-dynamic-module/main/application2/lib1/bundles/lib1.umd.js').then((m: any) => {
+      SystemJS.import('https://raw.githubusercontent.com/bpotaczek/angular-dynamic-module/main/application2/dist/lib1/bundles/lib1.umd.js').then((m: any) => {
         resolve(m);
       });
     }).then((m: any) => {
