@@ -1,0 +1,1 @@
+{"version":3,"file":"lib1.module.d.ts","sourceRoot":"../../../projects/lib1/src/","sources":["lib/lib1.module.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,mBAAmB,EAAsB,MAAM,eAAe,CAAC;;;;;;AAQxE,qBAca,UAAU;0CAAV,UAAU;kCAAV,UAAU;CAAI;AAE3B,qBACa,YAAY;IACvB,MAAM,CAAC,OAAO,IAAI,mBAAmB,CAAC,UAAU,CAAC;0CADtC,YAAY;kCAAZ,YAAY;CAOxB"}

@@ -1,0 +1,21 @@
+{
+  "name": "lib1",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^11.0.5",
+    "@angular/core": "^11.0.5"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
+  "main": "bundles/lib1.umd.js",
+  "module": "fesm2015/lib1.js",
+  "es2015": "fesm2015/lib1.js",
+  "esm2015": "esm2015/lib1.js",
+  "fesm2015": "fesm2015/lib1.js",
+  "typings": "lib1.d.ts",
+  "sideEffects": false,
+  "scripts": {
+    "prepublishOnly": "node --eval \"console.error('ERROR: Trying to publish a package that has been compiled by Ivy. This is not allowed.\\nPlease delete and rebuild the package, without compiling with Ivy, before attempting to publish.\\n')\" && exit 1"
+  }
+}
